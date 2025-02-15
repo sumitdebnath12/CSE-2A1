@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://th.bing.com/th/id/R.da2352cfbed8f08621a43fde151398f9?rik=%2bQIDn2c%2b8K0OMg&riu=http%3a%2f%2feftm.com.au%2fwp-content%2fuploads%2f2018%2f01%2fAU-en-20171225-popsignuptwoweeks-perspective_alpha_website_large.jpg&ehk=K9xC8yHBjXr66a7zZEzMooSVXfrvuI9qT564dYAeDRs%3d&risl=&pid=ImgRaw&r=0");
+    /* Background Image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+/* Login Container */
+.login-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Dark background to improve readability */
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 93%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f40612;
+}
+
+/* Options Section */
+.options {
+    display: flex;
+    /* Ensure the elements are spaced evenly */
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.options a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 14px;
+}
+ .forgot{
+    position: absolute;
+    left:1100px
+ }
+.options a:hover {
+    text-decoration: underline;
+}
+
+.options label {
+    font-size: 14px;
+    /* Match the size of the text with the link */
+}
+
+/* Or Divider */
+.or-divider {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.or-divider span {
+    padding: 0 10px;
+    background-color: #333;
+}
+
+/* Code Sign-in Button */
+.code-sign-in {
+    background-color: #555;
+    font-size: 16px;
+}
+
+.code-sign-in:hover {
+    background-color: #777;
+}
+
+/* Signup Text */
+.signup-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.signup-text a {
+    color: #e50914;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
